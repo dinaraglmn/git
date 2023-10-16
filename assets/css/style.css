@@ -5,5 +5,30 @@
     text-decoration: none;
     list-style: none;
 }
+a {
+    color: inherit;
+}
+
+nav {
+    background-color: green;
+    color: firebrick;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+nav h1 {
+    color: chocolate;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li:hover {
+    border-bottom: 1px solid chocolate;
+}
 
 
